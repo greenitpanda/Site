@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.1-rc.5",
+    "uikit": "^3.15.15"
+  }
+}
