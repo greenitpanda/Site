@@ -1,8 +1,9 @@
 <template>
-  <h1>Hello world !</h1>
+  <MenuTop />
 </template>
 
 <script>
+
 export default {
   name: 'IndexPage',
   mounted() {
