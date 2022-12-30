@@ -1,5 +1,10 @@
 <template>
-  <MenuTop />
+  <div>
+    <MenuTop />
+    <div id="content" class="content">
+      <NuxtChild />
+    </div>
+  </div>
 </template>
 
 <script>

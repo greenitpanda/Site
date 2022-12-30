@@ -4,10 +4,10 @@
     <div class="menu-items">
       <nav class="crumbs">
         <ul>
-            <li class="crumb"><a @click="selectMenu($event, 'about')">Notre société</a></li>
-            <li class="crumb"><a @click="selectMenu($event, 'pandas')">Nos pandas</a></li>
-            <li class="crumb"><a @click="selectMenu($event, 'join')">Nous rejoindre</a></li>
-            <li class="crumb"><a @click="selectMenu($event, 'contact')">Contact</a></li>
+            <li class="crumb"><nuxt-link to="/about" @click="selectMenu($event)">Notre société</nuxt-link></li>
+            <li class="crumb"><nuxt-link to="/pandas" @click="selectMenu($event)">Nos pandas</nuxt-link></li>
+            <li class="crumb"><nuxt-link to="/join" @click="selectMenu($event)">Nous rejoindre</nuxt-link></li>
+            <li class="crumb"><nuxt-link to="/contact" @click="selectMenu($event)">Contact</nuxt-link></li>
         </ul>
       </nav>
     </div>
@@ -26,12 +26,11 @@
       };
     },
     methods: {
-      selectMenu: function (event, route) {
+      selectMenu: function (event) {
         const currentActive = document.querySelector('a[aria-current="true"]');
         if (currentActive)
           currentActive.ariaCurrent = false;
         event.currentTarget.ariaCurrent = true;
-        
       }
     }
   });
