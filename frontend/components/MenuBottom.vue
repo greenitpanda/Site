@@ -1,5 +1,6 @@
 <template>
-  <div class="w100p">
+  <div class="w100p backgroundBottom">
+    <div><img :src="logoSrcSansFond" class="logoBackgroundBottom" /></div>
     <div id="projetQuestion" class="greyBorder w80p ml10p pt50 box">
       <div class="boxElement boxLine">
         <div>
@@ -56,12 +57,14 @@
 <script>
   // Please just use `@` to refer to the root "src" directory of the project
   import logoSrc from "@/assets/images/LOGO_NOIR&BLANC.png";
+  import logoSrcSansFond from "@/assets/images/LOGO_NOIR&BLANC_SANSFOND.png";
 
   export default({
     name: "MenuBottom",
     setup() {
       return {
-        logoSrc
+        logoSrc,
+        logoSrcSansFond
       };
     },
     methods: {
