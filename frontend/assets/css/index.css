@@ -1,0 +1,9 @@
+.container-vitrine {
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: hidden;
+}
+
+.img-vitrine {
+    width: 100%;
+}

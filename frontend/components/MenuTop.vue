@@ -4,9 +4,11 @@
     <div class="menu-items">
       <nav class="crumbs">
         <ul>
-            <li class="crumb"><nuxt-link to="/about" @click="selectMenu($event)">Notre société</nuxt-link></li>
-            <li class="crumb"><nuxt-link to="/pandas" @click="selectMenu($event)">Nos pandas</nuxt-link></li>
-            <li class="crumb"><nuxt-link to="/join" @click="selectMenu($event)">Nous rejoindre</nuxt-link></li>
+            <li class="crumb"><nuxt-link to="/about" @click="selectMenu($event)">L'entreprise</nuxt-link></li>
+            <li class="crumb"><nuxt-link to="/engagement" @click="selectMenu($event)">Engagement</nuxt-link></li>
+            <li class="crumb"><nuxt-link to="/developpement" @click="selectMenu($event)">Développement logiciel</nuxt-link></li>
+            <li class="crumb"><nuxt-link to="/ecoconception" @click="selectMenu($event)">Ecoconception numérique</nuxt-link></li>
+            <li class="crumb"><nuxt-link to="/acv" @click="selectMenu($event)">Analyse du cycle de vie</nuxt-link></li>
             <li class="crumb"><nuxt-link to="/contact" @click="selectMenu($event)">Contact</nuxt-link></li>
         </ul>
       </nav>

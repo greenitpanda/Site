@@ -1,0 +1,160 @@
+.greyBorder {
+  border-top: solid 1px #E2E2E2;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.boxLine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxElement {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.boxElementDouble {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.boxElementTriple {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.exert {
+  font-family: "Poppins-Bold";
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.exert2 {
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.contactButton {
+  background-color: #73a553;
+  font-family: "Poppins";
+  color: white;
+  text-decoration: none;
+  padding: 20px 70px;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.logoLinkedin {
+  background-color: #e0ebda;
+  color: #73a553;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 1.8em;
+  font-weight: bold;
+  font-family: "Poppins-Bold";
+}
+
+.contactText {
+  font-family: "Poppins-Light";
+  font-style: italic;
+  color: #73a553;
+  font-size: 1em;
+  min-width: 100px;
+}
+
+.contactTel {
+  font-family: "Poppins-Bold";
+  font-weight: 999;
+  font-size: 2em;
+  color: #73a553;
+}
+
+.infoEntreprise {
+  margin-top: 40px;
+  font-size: 1.2em;
+}
+
+.logoBottom {
+  width: 400px;
+}
+
+.crumb a {
+  color: black;
+  position: relative;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.crumb {
+  list-style: none;
+  text-align: center;
+  text-align: left;
+}
+
+a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #73a553;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+
+}
+
+a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+  color: #73a553;
+}
+
+.infosBottom {
+  height: 75px;
+  width: 100%;
+  background-color: #73a553;
+}
+
+.crumbsInfo {
+  padding-left: 20%;
+}
+
+.crumbInfo {
+  list-style: none;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 4rem;
+  margin: 0 1.5rem;
+  display: inline-block;
+  text-align: center;
+  color: white
+}
+
+.crumbInfo a {
+  color: white;
+  position: relative;
+  padding-bottom: 5px;
+  text-decoration: none;
+}

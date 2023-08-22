@@ -1,11 +1,11 @@
 <template>
-    <h1>Hello world About!</h1>
+    <h1>Hello world Developpement!</h1>
   </template>
   
   <script>
   
   export default {
-    name: 'About'
+    name: 'Dev'
   }
   </script>
   
