@@ -15,7 +15,7 @@
   padding-left: 20%;
 }
 
-.crumb {
+.crumb, .crumbButton {
   list-style: none;
   display: inline-block;
   font-size: 1rem;
@@ -27,7 +27,7 @@
   text-align: center;
 }
 
-.crumb a {
+.crumb a, .crumbButton a {
   color: white;
   position: relative;
   padding-bottom: 5px;
@@ -35,11 +35,10 @@
 }
 
 .menu-items {
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
 }
 
-a::before {
+.crumb a::before {
   content: '';
   position: absolute;
   width: 100%;
@@ -54,7 +53,7 @@ a::before {
 
 }
 
-a:hover::before {
+.crumb a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
   color: white;
@@ -64,4 +63,15 @@ a[aria-current]:not([aria-current="false"]) {
   font-weight: bold;
   color: white; 
   font-size: 1.5rem
+}
+
+.contact {
+  border: solid 1px white;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+
+.contact:hover {
+  background-color: white;
+  color: #73a553;
 }

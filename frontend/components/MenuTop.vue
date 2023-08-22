@@ -9,7 +9,7 @@
             <li class="crumb"><nuxt-link to="/developpement" @click="selectMenu($event)">Développement logiciel</nuxt-link></li>
             <li class="crumb"><nuxt-link to="/ecoconception" @click="selectMenu($event)">Ecoconception numérique</nuxt-link></li>
             <li class="crumb"><nuxt-link to="/acv" @click="selectMenu($event)">Analyse du cycle de vie</nuxt-link></li>
-            <li class="crumb"><nuxt-link to="/contact" @click="selectMenu($event)">Contact</nuxt-link></li>
+            <li class="crumbButton"><nuxt-link to="/contact" @click="selectMenu($event)"><span class="contact">Contact</span></nuxt-link></li>
         </ul>
       </nav>
     </div>
