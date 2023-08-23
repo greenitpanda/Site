@@ -55,7 +55,6 @@
 </template>
 
 <script>
-  // Please just use `@` to refer to the root "src" directory of the project
   import logoSrc from "@/assets/images/LOGO_NOIR&BLANC.png";
   import logoSrcSansFond from "@/assets/images/LOGO_NOIR&BLANC_SANSFOND.png";
 

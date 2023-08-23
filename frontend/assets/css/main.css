@@ -72,12 +72,6 @@ a {
     transition: opacity 0.25s cubic-bezier(0.39, 0.575, 0.565, 1);
   }
 
-  .content {
-    padding-top: 100px;
-    height: calc(100% - 100px);
-    width: 100%;
-  }
-
   /* TAILLES LARGEUR */
   
   .w5p {

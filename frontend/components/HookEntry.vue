@@ -1,0 +1,32 @@
+<template>
+  <div class="entryAbout">
+    <div><img :src="logoSrcSansFond" class="logoBackgroundBottom" /></div>
+    <div class="hook">
+      <div class="contentHook">
+        <span class="textHook">
+          Un accompagnement dans vos services numériques en intégrant une démarche de <b>numérique responsable</b>
+        </span>
+        <div>
+          <a href="#" class="contactButton"><span>NOUS CONTACTER</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+
+  import logoSrcSansFond from "@/assets/images/LOGO_NOIR_BLANC_SANSFOND.svg";
+  export default {
+    name: 'HookEntry',
+    setup() {
+      return {
+        logoSrcSansFond
+      };
+    }
+  }
+</script>
+
+<style scoped>
+  @import "@/assets/css/index.css"
+</style>

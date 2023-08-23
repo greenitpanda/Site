@@ -1,6 +1,5 @@
 .bandeau {
   height: 125px;
-  position: fixed;
   width: 100%;
   background-color: #73a553;
 }
@@ -13,6 +12,7 @@
 
 .crumbs {
   padding-left: 20%;
+  z-index: 1;
 }
 
 .crumb, .crumbButton {
@@ -25,6 +25,8 @@
   display: inline-block;
   float: none;
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 .crumb a, .crumbButton a {
