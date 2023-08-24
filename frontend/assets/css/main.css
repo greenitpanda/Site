@@ -22,111 +22,120 @@
   src: local("Poppins-Light"), url("../fonts/Poppins-Light.ttf") format("ttf");
 }
 
-div, span, a, p {
+div, span, a, p, h1, h2, h3, h4 {
   font-family: "Poppins";
 }
 
-h1, h2, h3, h4 {
-  font-family: "Poppins-Bold";
+h1 {
+  font-weight: 900;
+  font-size: 4em;
 }
 
 a {
     text-decoration: none;
-  }
+}
   
-  h1  {
-    font-family: Staatliches;
-    font-size: 120px;
-  }
+#category {
+  font-family: Staatliches;
+  font-weight: 500;
+}
   
-  #category {
-     font-family: Staatliches;
-     font-weight: 500;
-  }
+#title {
+  letter-spacing: .4px;
+  font-size: 22px;
+  font-size: 1.375rem;
+  line-height: 1.13636;
+}
   
-  #title {
-    letter-spacing: .4px;
-    font-size: 22px;
-    font-size: 1.375rem;
-    line-height: 1.13636;
-  }
+#banner {
+  margin: 20px;
+  height: 800px;
+}
   
-  #banner {
-    margin: 20px;
-    height: 800px;
-  }
+#editor {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.75;
+}
   
-  #editor {
-    font-size: 16px;
-    font-size: 1rem;
-    line-height: 1.75;
-  }
+.uk-navbar-container {
+  background: #fff !important;
+  font-family: Staatliches;
+}
   
-  .uk-navbar-container {
-    background: #fff !important;
-    font-family: Staatliches;
-  }
+img:hover {
+  opacity: 1;
+  transition: opacity 0.25s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+/* TAILLES LARGEUR */
   
-  img:hover {
-    opacity: 1;
-    transition: opacity 0.25s cubic-bezier(0.39, 0.575, 0.565, 1);
-  }
+.w5p {
+  width: 5%;
+}
 
-  /* TAILLES LARGEUR */
+.w10p {
+  width: 60%;
+}
+
+.w20p {
+  width: 20%;
+}
+
+.w33p {
+  width: 33%;
+}
+
+.w50p {
+  width: 50%;
+}
+
+.w60p {
+  width: 60%;
+}
+
+.w70p {
+  width: 70%;
+}
+
+.w80p {
+  width: 80%;
+}
+
+.w100p {
+  width: 100%;
+}
   
-  .w5p {
-    width: 5%;
-  }
+/* FIN TAILLES LARGEUR */
+/* POSITIONNEMENT */
 
-  .w10p {
-    width: 60%;
-  }
+.fleft {
+  float: left;
+}
 
-  .w20p {
-    width: 20%;
-  }
+.fright {
+  float: right;
+}
 
-  .w33p {
-    width: 33%;
-  }
+.ml10p {
+  margin-left: 10%;
+}
 
-  .w50p {
-    width: 50%;
-  }
+.m20 {
+  margin: 20px;
+}
 
-  .w60p {
-    width: 60%;
-  }
+.pt50 {
+  padding-top: 50px;
+}
 
-  .w80p {
-    width: 80%;
-  }
+/* FIN POSITIONNEMENT */
 
-  .w100p {
-    width: 100%;
-  }
-  
-  /* FIN TAILLES LARGEUR */
-  /* POSITIONNEMENT */
+.sectionTitle {
+  color: #73a553;
+  font-size: 1.5em;
+}
 
-  .fleft {
-    float: left;
-  }
-
-  .fright {
-    float: right;
-  }
-
-  .ml10p {
-    margin-left: 10%;
-  }
-
-  .m20 {
-    margin: 20px;
-  }
-
-  .pt50 {
-    padding-top: 50px;
-  }
-
-  /* FIN POSITIONNEMENT */
+.sectionText {
+  font-size: 1.2em;
+}

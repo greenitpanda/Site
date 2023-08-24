@@ -1,0 +1,45 @@
+.capsule {
+    width: 250px;
+    min-height: 375px;
+    background-color: #73a553;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+
+.capsule div {
+    font-size: 1.2em;
+    color: white;
+    flex: 1;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon img {
+    width: 75px;
+}
+
+.capsuleButton {
+    border: solid 1px white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+  
+.capsuleButton:hover {
+    background-color: white;
+    color: #73a553;
+}
