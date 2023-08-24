@@ -2,23 +2,23 @@
   <div class="capsule">
     <div>
       <div class="icon">
-        <img :src="logoIconDev" />
+        <img :src="logoIcon" />
       </div>
     </div>
     <div class="sectionText w70p">Ecoconception numérique</div>
     <div>
-      <a href="#" class="capsuleButton"><span>Découvrir</span></a>
+      <nuxt-link class="capsuleButton" to="/ecoconception"><span>Découvrir</span></nuxt-link>
     </div>
   </div>
 </template>
 
 <script>
-  import logoIconDev from "@/assets/images/icon_dev.png";
+  import logoIcon from "@/assets/images/icon_ecoconception.png";
   export default {
     name: 'CapsuleServiceEcoconception',
     setup() {
       return {
-        logoIconDev
+        logoIcon
       };
     }
   }

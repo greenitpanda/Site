@@ -7,7 +7,7 @@
     </div>
     <div class="sectionText w70p">Développement logiciel</div>
     <div>
-      <a href="#" class="capsuleButton"><span>Découvrir</span></a>
+      <nuxt-link class="capsuleButton" to="/developpement"><span>Découvrir</span></nuxt-link>
     </div>
   </div>
 </template>
