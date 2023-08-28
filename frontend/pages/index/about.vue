@@ -1,26 +1,11 @@
 <template>
-  <div>
-    <HookEntry/>
-    <OurServices />
-    <OurComitments />
-    <OurHistory />
-    <UsefulDatas />
-  </div>
-</template>
-
-<script>
-
-  import logoSrcSansFond from "@/assets/images/LOGO_NOIR_BLANC_SANSFOND.svg";
+    <h1>Hello world About!</h1>
+  </template>
+  
+  <script>
+  
   export default {
-    name: 'Accueil',
-    setup() {
-      return {
-        logoSrcSansFond
-      };
-    }
+    name: 'About'
   }
-</script>
-
-<style scoped>
-  @import "@/assets/css/index.css"
-</style>
+  </script>
+  
