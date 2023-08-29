@@ -1,6 +1,7 @@
 <template>
   <div class="w100p backgroundBottom">
     <div><img :src="logoSrcSansFond" class="logoBackgroundBottom" /></div>
+    <div><img :src="empreinte" class="empreinte" /></div>
     <div id="projetQuestion" class="greyBorder w80p ml10p pt50 box">
       <div class="boxElement boxLine">
         <div>
@@ -59,13 +60,15 @@
 <script>
   import logoSrc from "@/assets/images/LOGO_NOIR&BLANC.png";
   import logoSrcSansFond from "@/assets/images/LOGO_NOIR&BLANC_SANSFOND.png";
+  import empreinte from "@/assets/images/forme-contact.svg";
 
   export default({
     name: "MenuBottom",
     setup() {
       return {
         logoSrc,
-        logoSrcSansFond
+        logoSrcSansFond,
+        empreinte
       };
     },
     methods: {

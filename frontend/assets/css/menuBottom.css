@@ -174,3 +174,10 @@ a:hover::before {
   bottom: 0;
   opacity: 0.05;
 }
+
+.empreinte {
+  position: absolute;
+  width: 450px;
+  right: 0;
+  top: -325px;
+}

@@ -66,7 +66,7 @@
           <span>De l'empreinte humaine mondiale en 2020</span>
         </div>
         <div class="w50p">
-          <div class="numericData w75p">
+          <div class="numericData w100p">
             <div class="backgroundData"></div>
             <span>4 à 6 ans</span>
           </div>
