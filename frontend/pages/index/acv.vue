@@ -1,5 +1,8 @@
 <template>
-    <h1>Hello world ACV!</h1>
+  <div>
+    <HookAcv />
+    <ContentAcv />
+  </div>
   </template>
   
   <script>
