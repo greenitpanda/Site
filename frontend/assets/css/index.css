@@ -38,20 +38,3 @@
     background-color: white;
     color: #73a553;
 }
-
-.contentHook {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    margin-left: 15%;
-}
-
-.textHook {
-    flex: 1;
-    margin-bottom: 50px;
-    color: white;
-    font-size: 4em;
-    width: 60vw;
-    z-index: 1;
-    line-height: 1.2em;
-}

@@ -13,7 +13,7 @@
 </template>
 
 <script>
-  import logoIcon from "@/assets/images/icon_ecoconception.png";
+  import logoIcon from "@/assets/images/picto-ecoconception.svg";
   export default {
     name: 'CapsuleServiceEcoconception',
     setup() {

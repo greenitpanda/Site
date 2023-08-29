@@ -29,7 +29,9 @@
     </div>
     <div id="infoEntreprise" class="infoEntreprise w80p ml10p box">
       <div id="ecoindex" class="boxElement">EcoIndex X</div>
-      <div class="boxElement"><img :src="logoSrc" alt="Accueil" class="logoBottom" /></div>
+      <div class="boxElement">
+        <nuxt-link to="/"><img :src="logoSrc" alt="Accueil" class="logoBottom" /></nuxt-link>
+      </div>
       <div id="menu" class="boxElement">
         <ul>
             <li class="crumb"><nuxt-link to="/" @click="selectMenu($event)">L'entreprise</nuxt-link></li>

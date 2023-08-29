@@ -13,7 +13,7 @@
 </template>
 
 <script>
-  import logoIcon from "@/assets/images/icon_acv.png";
+  import logoIcon from "@/assets/images/picto-analyse.svg";
   export default {
     name: 'CapsuleServiceACV',
     setup() {

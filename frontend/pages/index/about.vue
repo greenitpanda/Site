@@ -1,5 +1,8 @@
 <template>
-    <h1>Hello world About!</h1>
+  <div>
+    <HookCompany />
+    <ContentCompany />
+  </div>
   </template>
   
   <script>

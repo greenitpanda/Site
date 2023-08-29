@@ -31,8 +31,14 @@ h1 {
   font-size: 4em;
 }
 
-a {
+h2 {
+  font-weight: 900;
+  font-size: 2em;
+}
+
+a, a:hover {
     text-decoration: none;
+    color: #316211;
 }
   
 #category {
@@ -151,4 +157,22 @@ img:hover {
 .topDisplay {
   z-index: 10;
   position: relative;
+}
+
+.contentHook {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+}
+
+.textHook {
+  flex: 1;
+  margin-bottom: 50px;
+  color: white;
+  font-size: 4em;
+  width: 60vw;
+  z-index: 1;
+  line-height: 1.2em;
+  font-weight: 200;
 }

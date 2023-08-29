@@ -13,7 +13,7 @@
 </template>
 
 <script>
-  import logoIconDev from "@/assets/images/icon_dev.png";
+  import logoIconDev from "@/assets/images/picto-dev.svg";
   export default {
     name: 'CapsuleServiceDev',
     setup() {

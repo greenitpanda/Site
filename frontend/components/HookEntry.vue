@@ -3,9 +3,9 @@
     <div><img :src="logoSrcSansFond" class="logoBackgroundBottom" /></div>
     <div class="hook">
       <div class="contentHook">
-        <span class="textHook">
+        <h1 class="textHook">
           Un accompagnement dans vos services numériques en intégrant une démarche de <b>numérique responsable</b>
-        </span>
+        </h1>
         <div>
           <a href="#" class="contactButton"><span>NOUS CONTACTER</span></a>
         </div>
