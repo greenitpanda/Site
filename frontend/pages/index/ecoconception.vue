@@ -1,5 +1,8 @@
 <template>
-    <h1>Hello world Ecoconception!</h1>
+    <div>
+    <HookEcoconception />
+    <ContentEcoconception />
+  </div>
   </template>
   
   <script>
