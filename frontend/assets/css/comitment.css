@@ -64,6 +64,15 @@
     display: flex;
 }
 
+.illustrationPicto {
+    position: absolute;
+    height: 60%;
+    width: 40%;
+    top: 10%;
+    left: 35%;
+    z-index: 20;
+}
+
 .textIllustration span {
     position: absolute;
     bottom: 30px;

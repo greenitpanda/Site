@@ -3,7 +3,7 @@
     <div class="hook">
       <div class="contentHook">
         <h1 class="textHook">
-          Green IT Panda, développement de logiciels écoresponsables
+          Vous accompagner vers des services numériques plus responsables
         </h1>
       </div>
     </div>
@@ -13,7 +13,7 @@
 <script>
 
   export default {
-    name: 'HookCompany',
+    name: 'HookEngagement',
     setup() {
       return {
       };

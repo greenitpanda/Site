@@ -10,29 +10,39 @@
         </div>
         <div class="capsuleContainerL">
           <div class="capsule greenit">
-            <img :src="logoGreenIT" alt="Green IT" />
+            <a href="https://www.greenit.fr/">
+              <img :src="logoGreenIT" alt="Green IT" />
+            </a>
           </div>
         </div>
         <div class="capsuleContainerL">
           <div class="capsule fairphone">
-            <img :src="logoFairphone" alt="Fairphone" />
+            <a href="https://www.fairphone.com/fr/">
+              <img :src="logoFairphone" alt="Fairphone" />
+            </a>
           </div>
         </div>
       </div>
       <div class="rightColumn">
         <div class="capsuleContainerR">
           <div class="capsule agit">
-            <img :src="logoAgit" alt="AGIT" />
+            <a href="https://alliancegreenit.org/">
+              <img :src="logoAgit" alt="AGIT" />
+            </a>
           </div>
         </div>
         <div class="capsuleContainerR">
           <div class="capsule shift">
-            <img :src="logoShift" alt="The Shift Project" />
+            <a href="https://theshiftproject.org/">
+              <img :src="logoShift" alt="The Shift Project" />
+            </a>
           </div>
         </div>
         <div class="capsuleContainerR">
           <div class="capsule backmarket">
-            <img :src="logoBackmarket" alt="Back Market" />
+            <a href="https://www.backmarket.fr/fr-fr">
+              <img :src="logoBackmarket" alt="Back Market" />
+            </a>
           </div>
         </div>
       </div>

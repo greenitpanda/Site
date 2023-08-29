@@ -1,6 +1,6 @@
 <template>
-  <div class="contentEntreprise">
-    <div class="descriptionService">
+  <div class="contentInfo">
+    <div class="descriptionInfo">
       <div>
         <div class="fright">
           <img :src="backgroundSrc" alt="Think green !" />
@@ -32,7 +32,3 @@
     }
   }
 </script>
-
-<style scoped>
-  @import "@/assets/css/company.css"
-</style>

@@ -36,6 +36,10 @@ h2 {
   font-size: 2em;
 }
 
+h3 {
+  color: #73a553;
+}
+
 a, a:hover {
     text-decoration: none;
     color: #316211;
@@ -175,4 +179,38 @@ img:hover {
   z-index: 1;
   line-height: 1.2em;
   font-weight: 200;
+}
+
+.hook {
+  padding-top: 100px;
+  height: calc(60vh - 125px);
+  width: 100%;
+  padding-top: 125px;
+  background-color: #73a553;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentInfo {
+  margin-top: 100px;
+  font-size: 1.2em;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 200px;
+}
+
+.descriptionInfo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.descriptionInfo img {
+  margin: 45px 0 30px 50px;
+}
+
+.description {
+  text-align: justify;
+  width: 100%;
 }

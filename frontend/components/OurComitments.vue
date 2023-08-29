@@ -2,6 +2,7 @@
   <div class="comitmentContainer">
     <div class="boxElement containerIllustration">
       <img class="illustration" :src="background" />
+      <img class="illustrationPicto" :src="pictoEngagement" />
       <div class="textIllustration"><span>Repenser votre projet pour une solution plus responsable et durable</span></div>
     </div>
     <div class="comitments boxElement">
@@ -17,11 +18,13 @@
 
 <script>
   import background from "@/assets/images/tmp_comitment.jpg";
+  import pictoEngagement from "@/assets/images/picto-engagement.svg";
   export default {
     name: 'OurComitments',
     setup() {
       return {
-        background
+        background,
+        pictoEngagement
       };
     }
   }

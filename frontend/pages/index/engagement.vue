@@ -1,5 +1,8 @@
 <template>
-    <h1>Hello world Engagement!</h1>
+  <div>
+    <HookEngagement />
+    <ContentEngagement />
+  </div>
   </template>
   
   <script>
