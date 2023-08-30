@@ -54,28 +54,28 @@
         <div class="w50p">
           <div class="numericData">
             <div class="backgroundData"></div>
-            <span>11</span>
+            <img class="eleven" :src="eleven" />
           </div>
           <span>Equipements par français en moyenne</span>
         </div>
         <div class="w50p">
           <div class="numericData">
             <div class="backgroundData"></div>
-            <span>4%</span>
+            <img class="fourpercent" :src="fourpercent" />
           </div>
           <span>De l'empreinte humaine mondiale en 2020</span>
         </div>
         <div class="w50p">
           <div class="numericData w100p">
             <div class="backgroundData"></div>
-            <span>4 à 6 ans</span>
+            <img class="dureeVie" :src="dureeVie" />
           </div>
           <span>Durée de vie d'un terminal en 2022 contre 10 à 15 ans en 1995</span>
         </div>
         <div class="w50p">
           <div class="numericData">
             <div class="backgroundData"></div>
-            <span>6</span>
+            <img class="numeroSix" :src="numeroSix" />
           </div>
           <span>Limites planétaires sur 9 déjà dépassées</span>
         </div>
@@ -90,6 +90,10 @@
   import logoFairphone from "@/assets/images/fairphone.png";
   import logoGreenIT from "@/assets/images/greenit.png";
   import logoShift from "@/assets/images/shift.png";
+  import eleven from "@/assets/images/11.png";
+  import fourpercent from "@/assets/images/4percent.png";
+  import dureeVie from "@/assets/images/duree_vie.png";
+  import numeroSix from "@/assets/images/numero6.svg";
   export default {
     name: 'UsefulDatas',
     setup() {
@@ -98,7 +102,11 @@
         logoBackmarket,
         logoFairphone,
         logoGreenIT,
-        logoShift
+        logoShift,
+        eleven,
+        fourpercent,
+        dureeVie,
+        numeroSix
       };
     }
   }

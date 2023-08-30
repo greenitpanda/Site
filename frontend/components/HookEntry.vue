@@ -1,6 +1,8 @@
 <template>
   <div class="entryAbout">
     <div><img :src="logoSrcSansFond" class="logoBackgroundBottom" /></div>
+    <div><img :src="arrow" class="arrow" /></div>
+    <img :src="empreinte" class="empreinteHeader" />
     <div class="hook">
       <div class="contentHook">
         <h1 class="textHook">
@@ -17,11 +19,15 @@
 <script>
 
   import logoSrcSansFond from "@/assets/images/LOGO_NOIR_BLANC_SANSFOND.svg";
+  import arrow from "@/assets/images/arrow_to_bottom.png";
+  import empreinte from "@/assets/images/forme-header.svg";
   export default {
     name: 'HookEntry',
     setup() {
       return {
-        logoSrcSansFond
+        logoSrcSansFond,
+        arrow,
+        empreinte
       };
     }
   }

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="width: 100vw;overflow: hidden">
     <MenuTop />
     <div id="content" class="content">
       <NuxtChild />

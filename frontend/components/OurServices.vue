@@ -1,6 +1,6 @@
 <template>
   <div class="servicesContainer">
-    <div class="background"></div>
+    <div class="background"><img :src="backgroundQuadrille" /></div>
     <span class="sectionTitle">Nos prestations</span>
     <div class="w50p topDisplay">
       <h1>Services numériques responsable</h1>
@@ -21,11 +21,12 @@
 </template>
 
 <script>
-
+  import backgroundQuadrille from "@/assets/images/fond_quadrillé.png";
   export default {
     name: 'OurServices',
     setup() {
       return {
+        backgroundQuadrille
       };
     }
   }

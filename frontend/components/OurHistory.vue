@@ -1,5 +1,9 @@
 <template>
   <div class="historyContainer">
+    <img :src="tetePanda" class="panda" />
+    <img :src="empreinte" class="whitePrint" />
+    <img :src="arrow" class="arrowBottom" />
+    <div class="pandaEar" />
     <div class="infoHistory">
       <h1>Green IT Panda vous accompagne dans vos projets de développement logiciel, et d'accompagnement au numérique responsable </h1>
       <span>
@@ -15,11 +19,16 @@
 </template>
 
 <script>
-
+  import tetePanda from "@/assets/images/tete_panda.png";
+  import empreinte from "@/assets/images/white-print.png";
+  import arrow from "@/assets/images/arrow_to_left.png";
   export default {
     name: 'OurHistory',
     setup() {
       return {
+        tetePanda,
+        empreinte,
+        arrow
       };
     }
   }

@@ -1,8 +1,9 @@
 .comitmentContainer {
-    margin-left: 15%;
+    margin-left: 7.5%;
     margin-right: 15%;
     display: flex;
-    margin-top: 100px;
+    margin-top: 200px;
+    position: relative;
 }
 
 .illustration {
@@ -80,4 +81,18 @@
     text-align: right;
     font-weight: 900;
     font-size: 1.8em;
+}
+
+.empreinte {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.arrows {
+    position: absolute;
+    right: 0;
+    top: 55%;
+    width: 200px;
+
 }

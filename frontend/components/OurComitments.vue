@@ -1,5 +1,7 @@
 <template>
   <div class="comitmentContainer">
+    <!-- <img class="empreinte" :src="empreinte" /> -->
+    <img class="arrows" :src="arrows" />
     <div class="boxElement containerIllustration">
       <img class="illustration" :src="background" />
       <img class="illustrationPicto" :src="pictoEngagement" />
@@ -19,12 +21,16 @@
 <script>
   import background from "@/assets/images/comitment.png";
   import pictoEngagement from "@/assets/images/picto-engagement.svg";
+  import empreinte from "@/assets/images/forme-header.svg";
+  import arrows from "@/assets/images/round_arrows.png";
   export default {
     name: 'OurComitments',
     setup() {
       return {
         background,
-        pictoEngagement
+        pictoEngagement,
+        empreinte,
+        arrows
       };
     }
   }

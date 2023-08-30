@@ -1,5 +1,5 @@
 <template>
-    <div>
+  <div>
     <HookEcoconception />
     <ContentEcoconception />
   </div>
