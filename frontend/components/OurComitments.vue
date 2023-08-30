@@ -17,7 +17,7 @@
 </template>
 
 <script>
-  import background from "@/assets/images/tmp_comitment.jpg";
+  import background from "@/assets/images/comitment.png";
   import pictoEngagement from "@/assets/images/picto-engagement.svg";
   export default {
     name: 'OurComitments',

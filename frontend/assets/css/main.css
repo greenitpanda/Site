@@ -163,6 +163,10 @@ img:hover {
   position: relative;
 }
 
+.entryEntreprise {
+  position: relative;
+}
+
 .contentHook {
   flex: 1;
   display: flex;
@@ -190,6 +194,7 @@ img:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .contentInfo {
@@ -213,4 +218,12 @@ img:hover {
 .description {
   text-align: justify;
   width: 100%;
+}
+
+.empreinteHeader {
+  height: 80vh;
+  position: absolute;
+  left: 0;
+  top: -175px;
+  
 }
