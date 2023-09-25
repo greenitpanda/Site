@@ -1,10 +1,10 @@
 <template>
-  <div class="entryEntreprise">
+  <div class="entryContact">
     <div class="hook">
       <img :src="empreinte" class="empreinteHeader" />
       <div class="contentHook">
         <h1 class="textHook">
-          Green IT Panda pour le développement de vos logiciels
+          Contactez-nous dès maintenant : nous sommes à l'écoute de vos besoins pour le développement de logiciels écoconçus respectueux de l'environnement.
         </h1>
       </div>
     </div>
@@ -15,7 +15,7 @@
 
 import empreinte from "@/assets/images/forme-header.svg";
   export default {
-    name: 'HookDeveloppement',
+    name: 'HookContact',
     setup() {
       return {
         empreinte

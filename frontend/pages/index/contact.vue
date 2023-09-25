@@ -1,11 +1,14 @@
 <template>
-    <h1>Hello world Contact!</h1>
-  </template>
+  <div>
+    <HookContact />
+    <ContentContact />
+  </div>
+</template>
   
-  <script>
-  
-  export default {
-    name: 'Contact'
-  }
-  </script>
+<script>
+
+export default {
+  name: 'Contact'
+}
+</script>
   

@@ -1,0 +1,16 @@
+.companyName {
+    color: #73a553;
+}
+
+.containerContact {
+  margin-left: 15%;
+}
+
+.infoContact {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.infoContact h2 {
+    width: 50%;
+}

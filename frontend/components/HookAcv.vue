@@ -13,10 +13,12 @@
 
 <script>
 
+import empreinte from "@/assets/images/forme-header.svg";
   export default {
     name: 'HookCompany',
     setup() {
       return {
+        empreinte
       };
     }
   }

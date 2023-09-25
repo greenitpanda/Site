@@ -172,6 +172,7 @@ img:hover {
   display: flex;
   flex-direction: column;
   margin-left: 15%;
+  padding-bottom: 100px;
 }
 
 .textHook {
