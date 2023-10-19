@@ -2,15 +2,62 @@
     color: #73a553;
 }
 
-.containerContact {
-  margin-left: 15%;
-}
-
 .infoContact {
     margin-top: 100px;
     margin-bottom: 100px;
+    margin-left: 15%;
 }
 
 .infoContact h2 {
     width: 50%;
+}
+
+* {box-sizing: border-box;}
+
+.containerForm {
+  display: block;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 15% 20px 15%;
+  width: 75%;
+  margin-bottom: 150px;
+  color: #888888;
+}
+
+.inputForm {
+  border: none;
+  border-bottom: solid 1px #BABABA;
+  border-radius: 0;
+  background-color: #F2F2F2;
+}
+
+label {
+  float: left;
+}
+
+input[type=text], [type=email], textarea {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.buttonSend {
+  border: solid 1px white;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: white;
+  color: #73a553;
+}
+
+.buttonSend:hover {
+  background-color: #73a553;
+  color: white;
+}
+
+.message {
+  border: none;
+  border-radius: 15px;
 }
