@@ -12,6 +12,7 @@
     </div>
     <div class="containerForm">
       <h2>Formulaire de contact :</h2>
+      
       <form id="myForm">
         <label>Nom</label>
         <input 
@@ -48,6 +49,8 @@
           class="message"
           cols="30" rows="10">
         </textarea>
+        <div id="error" class="sendingResult sendingError">Une erreur est survenur durant l'envoi du mail.</div>
+        <div id="sent" class="sendingResult sendingDone">Votre demande a bien été envoyée ! Notre équipe revient vers vous dans les meilleurs délais.</div>
         <button type="button" class="buttonSend" @click="sendEmail">Envoyer</button>
       </form>
     </div>
@@ -70,22 +73,14 @@
     methods: {
       sendEmail(e) {
         try {
-          console.log('ok');
           sendForm('service_ecwpyhd', 'template_whez7sf', '#myForm', 'CmWnd60ndh9aIndoR')
-            .then(function(response) {
-              console.log('SUCCESS! ' + response.status + " " + response.text);
-            }, function(error) {
-              console.log('FAILED...', error);
+            .then(function() {
+              document.getElementById("sent").classList.toggle("sendingFinished");
+            }).catch(function(){
+              document.getElementById("error").classList.toggle("sendingFinished");
             });
-          // sendForm('0T-zcumrQeWCS6V_xNJbow', 'template_whez7sf', this.$refs.form,
-          // 'CmWnd60ndh9aIndoR', {
-          //   name: this.name,
-          //   email: this.email,
-          //   message: this.message
-          // })
-
         } catch(error) {
-          console.log(JSON.stringify(error))
+          this.erreurSend = true;
         }
       },
     }
