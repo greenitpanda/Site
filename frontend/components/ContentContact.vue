@@ -48,7 +48,7 @@
           class="message"
           cols="30" rows="10">
         </textarea>
-        <button class="buttonSend" @click="sendEmail">Envoyer</button>
+        <button type="button" class="buttonSend" @click="sendEmail">Envoyer</button>
       </form>
     </div>
   </div>
@@ -70,12 +70,12 @@
     methods: {
       sendEmail(e) {
         try {
-          alert('ok ' + this.name + " " + this.email + " " + this.message);
-          sendForm('0T-zcumrQeWCS6V_xNJbow', 'template_whez7sf', '#myForm', 'CmWnd60ndh9aIndoR')
+          console.log('ok');
+          sendForm('service_ecwpyhd', 'template_whez7sf', '#myForm', 'CmWnd60ndh9aIndoR')
             .then(function(response) {
-              alert('SUCCESS! ' + response.status + " " + response.text);
+              console.log('SUCCESS! ' + response.status + " " + response.text);
             }, function(error) {
-              alert('FAILED...', error);
+              console.log('FAILED...', error);
             });
           // sendForm('0T-zcumrQeWCS6V_xNJbow', 'template_whez7sf', this.$refs.form,
           // 'CmWnd60ndh9aIndoR', {
@@ -85,7 +85,7 @@
           // })
 
         } catch(error) {
-            alert(JSON.stringify(error))
+          console.log(JSON.stringify(error))
         }
       },
     }
