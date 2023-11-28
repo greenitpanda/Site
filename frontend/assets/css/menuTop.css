@@ -8,6 +8,9 @@
     height: 100px;
     margin-top: 12px;
     margin-left: 25px;
+    z-index: 500;
+    cursor: pointer;
+    position: relative;
   }
   
   .crumbs {
@@ -28,6 +31,10 @@
     position: relative;
     z-index: 1;
     max-width: 16%;
+  }
+
+  .crumbButton a {
+    border-bottom: none !important;
   }
   
   .crumb a, .crumbButton a {
@@ -55,7 +62,7 @@
     transition: transform .3s ease-in-out;
   
   }
-  
+
   .crumb a:hover::before {
     transform-origin: left;
     transform: scaleX(1);

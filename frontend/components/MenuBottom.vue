@@ -10,7 +10,7 @@
         </div>
       </div>
       <div class="boxElement boxLine">
-        <a href="#" class="contactButton"><span>NOUS CONTACTER</span></a>
+        <a href="/contact" class="contactButton"><span>NOUS CONTACTER</span></a>
       </div>
     </div>
     <div id="contactBandeau" class="infoEntreprise w80p ml10p box">

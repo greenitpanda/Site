@@ -9,7 +9,7 @@
           Un accompagnement dans vos services numériques en intégrant une démarche de <b>numérique responsable</b>
         </h1>
         <div>
-          <a href="#" class="contactButton"><span>NOUS CONTACTER</span></a>
+          <a href="/contact" class="contactButton"><span>NOUS CONTACTER</span></a>
         </div>
       </div>
     </div>
