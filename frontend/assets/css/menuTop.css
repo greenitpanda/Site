@@ -5,13 +5,12 @@
   }
   
   .bandeau-img {
-    height: 100px;
+    height: 112px;
     margin-top: 12px;
-    margin-left: 25px;
+    margin-left: 5%;
     z-index: 500;
     cursor: pointer;
     position: relative;
-    width: 20%;
   }
   
   .crumbs {
@@ -74,7 +73,7 @@
   
   }
 
-  .crumb a:hover::before {
+  .crumb a:not(.nuxt-link-active):hover::before  {
     transform-origin: left;
     transform: scaleX(1);
     color: white;
@@ -110,7 +109,9 @@
 
     .bandeau-img {
       width: 10%;
+      height: 125px;
       position: absolute;
+      margin-left: 3%;
     }
 
     .crumbs {

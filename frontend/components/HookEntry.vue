@@ -1,6 +1,5 @@
 <template>
   <div class="entryAbout">
-    <div><img :src="logoSrcSansFond" class="logoBackgroundBottom" /></div>
     <div><img :src="arrow" class="arrow" /></div>
     <img :src="empreinte" class="empreinteHeader" />
     <div class="hook">

@@ -180,7 +180,7 @@ img:hover {
   margin-bottom: 50px;
   color: white;
   font-size: 4em;
-  width: 60vw;
+  width: 70vw;
   z-index: 1;
   line-height: 1.2em;
   font-weight: 200;
@@ -226,4 +226,21 @@ img:hover {
   position: absolute;
   left: 0;
   top: -175px;
+}
+
+@media (max-width: 1280px) {
+
+  .hook {
+      height: calc(100vh - 100px);
+  }
+
+  .textHook {
+    width: 80vw;
+  }
+
+  .contentInfo {
+    width: 78%;
+  }
+  
+
 }

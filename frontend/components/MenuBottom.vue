@@ -29,7 +29,7 @@
       <hr class="separator w5p m20 boxElementTriple"/>
     </div>
     <div id="infoEntreprise" class="infoEntreprise w80p ml10p box">
-      <div id="ecoindex" class="boxElement">EcoIndex X</div>
+      <div id="ecoindex" class="boxElement"></div>
       <div class="boxElement">
         <nuxt-link to="/"><img :src="logoSrc" alt="Accueil" class="logoBottom" /></nuxt-link>
       </div>
