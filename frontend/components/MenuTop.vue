@@ -1,6 +1,6 @@
 <template>
   <div class="bandeau">
-    <nuxt-link to="/"><img :src="logoSrc" alt="Accueil" class="w20p bandeau-img fleft" /></nuxt-link>
+    <nuxt-link to="/"><img :src="logoSrc" alt="Accueil" class="bandeau-img fleft" /></nuxt-link>
     <div class="menu-items">
       <nav class="crumbs">
         <ul>
