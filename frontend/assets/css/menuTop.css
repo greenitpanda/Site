@@ -17,20 +17,27 @@
     padding-left: 20%;
     z-index: 1;
   }
+
+  .crumbs ul {
+    display: flex;
+  }
   
   .crumb, .crumbButton {
     list-style: none;
-    display: inline-block;
     font-size: 1rem;
     line-height: 4rem;
     margin: 0 1.5rem;
     padding: 20px 0;
-    display: inline-block;
     float: none;
     text-align: center;
     position: relative;
     z-index: 1;
-    max-width: 16%;
+    max-width: 215px;
+    text-overflow: ellipsis;
+    min-width: 100px;
+    max-height: 85px;
+    overflow: hidden;
+    color: white;
   }
 
   .crumbButton a {
@@ -42,10 +49,13 @@
     position: relative;
     padding-bottom: 5px;
     text-decoration: none;
+    min-width: 100px;
+    white-space: nowrap;
+    text-overflow: "...";
   }
   
   .menu-items {
-    width: 90%;
+    width: 100%;
   }
   
   .crumb a::before {
@@ -85,4 +95,12 @@
   .contact:hover {
     background-color: white;
     color: #73a553;
+  }
+
+  @media (max-width: 1600px) {
+
+    .crumb, .crumbButton {
+      max-width: 150px;
+    }
+
   }
