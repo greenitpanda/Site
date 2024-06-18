@@ -24,7 +24,7 @@
       <hr class="separator w5p m20 boxElement"/>
       <div id="contactTel" class="contact boxElementTriple box">
         <div class="contactText boxElement">Contactez-nous par téléphone</div>
-        <div class="contactTel boxElementDouble">+33 6 86 01 62 59</div>
+        <div class="contactTel boxElementDouble">+33 3 85 72 48 59</div>
       </div>
       <hr class="separator w5p m20 boxElementTriple"/>
     </div>
