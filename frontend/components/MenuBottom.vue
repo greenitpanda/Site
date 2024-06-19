@@ -35,7 +35,7 @@
       </div>
       <div id="menu" class="boxElement">
         <ul>
-            <li class="crumb"><nuxt-link to="/" @click="selectMenu($event)">L'entreprise</nuxt-link></li>
+            <li class="crumb"><nuxt-link to="/about" @click="selectMenu($event)">L'entreprise</nuxt-link></li>
             <li class="crumb"><nuxt-link to="/engagement" @click="selectMenu($event)">Engagement</nuxt-link></li>
             <li class="crumb"><nuxt-link to="/developpement" @click="selectMenu($event)">Développement logiciel</nuxt-link></li>
             <li class="crumb"><nuxt-link to="/ecoconception" @click="selectMenu($event)">Ecoconception numérique</nuxt-link></li>
@@ -77,6 +77,7 @@
         if (currentActive)
           currentActive.ariaCurrent = false;
         event.currentTarget.ariaCurrent = true;
+        window.scrollTo(0, 0);
       }
     }
   });

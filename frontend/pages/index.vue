@@ -14,8 +14,13 @@
 
 export default {
   name: 'IndexPage',
+  watch:{
+    $route (to, from){
+        window.scrollTo(0, 0);
+    }
+  },
   mounted() {
-    document.title = "Green IT Panda"
+    document.title = "Green IT Panda";
   }
 }
 </script>
