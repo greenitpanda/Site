@@ -1,8 +1,7 @@
 export default {
-  scrollToTop: true,
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
+  ssr: false,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'frontend',
