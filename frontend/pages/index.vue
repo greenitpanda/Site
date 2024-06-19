@@ -28,9 +28,6 @@ export default {
         window.scrollTo(0, 0);
     }
   },
-  mounted() {
-    document.title = "Green IT Panda";
-  },
   methods: {
     isMobile() {
       return isMobile();
