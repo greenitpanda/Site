@@ -1,5 +1,5 @@
 <template>
-  <div v-if="!isMobile()" style="width: 100vw;overflow: hidden">
+  <div v-if="!isMobile()" style="width: 100%;overflow: hidden">
     <MenuTop />
     <div id="content" class="content">
       <NuxtChild />

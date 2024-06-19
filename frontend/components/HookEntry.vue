@@ -8,7 +8,7 @@
           Un accompagnement dans vos services numériques en intégrant une démarche de <b>numérique responsable</b>
         </h1>
         <div>
-          <a href="/contact" class="contactButton"><span>NOUS CONTACTER</span></a>
+          <nuxt-link to="/contact" class="contactButton" @click="selectMenu($event)"><span class="contact">NOUS CONTACTER</span></nuxt-link>
         </div>
       </div>
     </div>

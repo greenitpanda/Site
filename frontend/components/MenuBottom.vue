@@ -10,16 +10,20 @@
         </div>
       </div>
       <div class="boxElement boxLine">
-        <a href="/contact" class="contactButton"><span>NOUS CONTACTER</span></a>
+        <a href="/contact" class="contactButtonBottom"><span>NOUS CONTACTER</span></a>
       </div>
     </div>
     <div id="contactBandeau" class="infoEntreprise w80p ml10p box">
       <hr class="separator w5p m20 boxElement"/>
       <div id="contactLinkedin" class="contact boxElement box">
-        <div class="logoLinkedin boxElement">
-          in
-        </div>
-        <div class="contactText boxElementDouble">Suivez-nous sur LinkedIn</div>
+        <a href="https://www.linkedin.com/in/florian-collonge-072196ba/">
+          <div class="logoLinkedin boxElement">
+            in
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/florian-collonge-072196ba/">
+          <div class="contactText boxElementDouble">Suivez-nous sur LinkedIn</div>
+        </a>
       </div>
       <hr class="separator w5p m20 boxElement"/>
       <div id="contactTel" class="contact boxElementTriple box">
@@ -43,16 +47,6 @@
             <li class="crumb"><nuxt-link to="/contact" @click="selectMenu($event)">Contact</nuxt-link></li>
         </ul>
       </div>
-    </div>
-    <div class="infosBottom">
-      <ul class="crumbsInfo">
-        <li class="crumbInfo"><nuxt-link to="/about" @click="selectMenu($event)">Données personnelles</nuxt-link></li>
-        <li class="crumbInfo"><nuxt-link to="/engagement" @click="selectMenu($event)">Mentions légales</nuxt-link></li>
-        <li class="crumbInfo"><nuxt-link to="/developpement" @click="selectMenu($event)">Cookies</nuxt-link></li>
-        <li class="crumbInfo"><nuxt-link to="/ecoconception" @click="selectMenu($event)">Plan de site</nuxt-link></li>
-        <li class="crumbInfo">Designé par Publigo</li>
-        <li class="crumbInfo">Développé par Green IT Panda</li>
-      </ul>
     </div>
   </div>
 </template>
